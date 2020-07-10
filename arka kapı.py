@@ -63,5 +63,5 @@ class MySocket:
 			self.json_send(command_output)
 		self.my_connection.close()
 
-my_socket_object = MySocket("192.168.1.105",8080)
+my_socket_object = MySocket("your local ip address",8080)
 my_socket_object.start_socket()
