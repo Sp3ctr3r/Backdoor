@@ -64,5 +64,5 @@ class SocketListener:
                 command_output = "Hata!"
             print(command_output)
 
-my_socket_listener = SocketListener("192.168.1.105",8080)
+my_socket_listener = SocketListener("your local ip address",8080)
 my_socket_listener.start_listener()
